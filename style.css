@@ -13,7 +13,7 @@ body{
     border-radius: 20px;
     background-color: rgba(150, 218, 25, 0.658);
     height: auto;
-    width: 60vh;
+    width: 80vh;
     box-shadow: 4px 4px 10px;
 }
 
@@ -32,11 +32,13 @@ body{
 }
 
 input{
-    width: 70%;
+    width: 80%;
     padding: 5px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 16px;
+    text-align: center;
 }
 
 button:hover{
@@ -57,19 +59,24 @@ ul{
 
 li{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     border : 2px solid rgb(37, 68, 224);
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
 }
 
 .footer{
     margin-top: 20px;
     padding: 5px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     background-color: rgba(48, 184, 36, 0.658);
     border-radius: 15px;
     border-top: 1px solid rgb(18, 147, 67);
+    color: rgb(27, 21, 21);
+    font-weight: bold;
 }
